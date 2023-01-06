@@ -4,9 +4,17 @@
 }
 
 body {
-    font-family: 'Roboto'/*, Arial, Helvetica, sans-serif*/;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #2a333f;
     font-size: 18px;
+}
+
+a, a:visited {
+    all: unset;
+}
+    
+a:hover {
+    color: #6a7eba;
 }
 
 header, footer {
